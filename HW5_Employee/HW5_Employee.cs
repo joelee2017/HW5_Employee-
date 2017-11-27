@@ -19,7 +19,7 @@ namespace HW5_Employee
         }
         List<ClsEmployee> list = new List<ClsEmployee>();
 
-        private void Reorganize()//改編
+        private void Reorganize()//宣告一個方法用來控管UI層顯示
         {
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = list;
